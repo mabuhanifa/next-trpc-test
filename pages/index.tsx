@@ -6,7 +6,7 @@ export default function IndexPage() {
 
   if (!result.data) {
     return (
-      <div>
+      <div className="flex justify-center items-center">
         <h1>Loading...</h1>
       </div>
     );
